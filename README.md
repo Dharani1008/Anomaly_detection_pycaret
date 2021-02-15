@@ -36,3 +36,13 @@ or
 
 Run python check8.py
 
+## How to create models in pycaret
+1. Load the dataset using pandas library
+2. Import pycaret anomaly detection module
+3. Initialize data with pycaret setup()
+4. Create anyone pycaret model with create_model()
+5. Use assign_model() for producing label for anomalies.
+6. Use the predict_model() for predicting on unseen data.
+7. Save the model use save_model() in .pkl format.
+8. Use load_model() for loading model for future usage.
+
